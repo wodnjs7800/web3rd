@@ -9,46 +9,51 @@ header{
 }
 .header_top{
   width: 1180px; height: 40px;
+  margin-left: auto; margin-right: auto;
+  position: relative;
 }
 .header_top nav{
   left: 20px;
-  float: right;
   position: relative;
+  float: right;
 }
 .header_top nav>ul{
+  position: relative;
+  right: 20px; top: 20px;
 }
 .header_top nav>ul>li{
   list-style: none;
   float: left;
-  padding: 10px 10px;
+  padding: 0px 10px;
 }
 .header_top nav>ul>li a{
   text-decoration: none;
   color: lightgray;
 }
 .header_bottom{
-  width: 1180px; height: 40px;
-  padding: 20px;
+  width: 1180px; height:80px;
   margin-left: auto; margin-right: auto;
+  position: relative;
 }
 .header_bottom h1 a{
   color: black;
   float: left;
   text-decoration: none;
-  position: relative;
-  left: 10px;
+  position: absolute;
+  left: 10px; bottom: 15px;
 }
 .header_bottom h1 a:hover{
   color: orange;
 }
 .header_bottom nav{
   float: right;
-  position: relative;
+  position: absolute;
+  right: -35px; bottom: 0px;
 }
 .header_bottom nav>ul>li{
   list-style: none;
   float: left;
-  padding: 10px 30px;
+  padding: 20px 35px;
 }
 .header_bottom nav>ul>li a{
   color: black;
@@ -98,10 +103,12 @@ footer{
 .bottom{
   width: 1000px; height: 100px;
   margin-left: auto; margin-right: auto;
+  position: relative;
 }
 .bottom h1{
-  margin-left: 10px; margin-bottom: 15px;
   float: left;
+  position: absolute;
+  left: 10px; bottom: 15px;
 }
 .bottom h1 a{
   color: white;
@@ -112,15 +119,18 @@ footer{
 }
 .bottom nav{
   float: right;
-  position: relative;
-  right: 20px; margin-bottom: 15px;
+  position: absolute;
+  right: 10px; bottom: 15px;
 }
 .bottom nav>ul>li{
   list-style: none;
   float: left;
-  padding: 10px;
+  padding: 0px 10px;
 }
 .b1{
   width: 1000px; height: 100px;
   margin-left: auto; margin-right: auto;
+  position: relative;
+  font-size: 12px;
+  left: 10px; top: 30px;
 }
