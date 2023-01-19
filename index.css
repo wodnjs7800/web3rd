@@ -48,12 +48,12 @@ header{
 .header_bottom nav{
   float: right;
   position: absolute;
-  right: -35px; bottom: 0px;
+  right: 0px; bottom: 0px;
 }
 .header_bottom nav>ul>li{
   list-style: none;
   float: left;
-  padding: 20px 35px;
+  padding: 20px 40px;
 }
 .header_bottom nav>ul>li a{
   color: black;
