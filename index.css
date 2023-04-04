@@ -105,22 +105,12 @@ footer{
   margin-left: auto; margin-right: auto;
   position: relative;
 }
-.bottom h1{
-  float: left;
+.bottom a{
   position: absolute;
-  left: 10px; bottom: 15px;
+  left: 10px; bottom: 0px;
 }
-.bottom h1 a{
-  color: white;
-  text-decoration: none;
-}
-.bottom h1 a:hover{
-  color: orange;
-}
-.bottom img{
+.bottom a img{
   width: 150px;
-  position: relative;
-  top: 5px;
 }
 .bottom nav{
   float: right;
